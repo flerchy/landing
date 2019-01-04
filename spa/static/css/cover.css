@@ -118,3 +118,68 @@ body {
   left: 0;
   z-index: 1;
 }
+
+
+.hide-desc-resume {
+    animation: fadein2 3s;
+    -moz-animation: fadein2 3s; /* Firefox */
+    -webkit-animation: fadein2 3s; /* Safari and Chrome */
+    -o-animation: fadein2 3s; /* Opera */
+}
+
+
+.hide-contacts {
+    animation: fadein3 6s;
+    -moz-animation: fadein3 6s; /* Firefox */
+    -webkit-animation: fadein3 6s; /* Safari and Chrome */
+    -o-animation: fadein3 6s; /* Opera */
+}
+
+@keyframes fadein2 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes fadein2 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein2 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-o-keyframes fadein2 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+@keyframes fadein3 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes fadein3 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein3 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-o-keyframes fadein3 {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
