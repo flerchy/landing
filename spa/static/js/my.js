@@ -7,14 +7,14 @@ let draw = function(a, b, t) {
   	$.lineWidth = 1;
 
   	let my_gradient = $.createLinearGradient(0, 0, 0, h);
-	my_gradient.addColorStop(0, "hsla(200, 100%, 85%, 1");
-	my_gradient.addColorStop(1, "hsla(120, 70%, 75%, 1");
+	my_gradient.addColorStop(0.1, "hsla(260, 100%, 85%, 1");
+	my_gradient.addColorStop(1, "hsla(330, 100%, 85%, 1");
 
 	$.fillStyle = my_gradient;
     $.fillRect(0, 0, w, h);
 
     for (let i = -60; i < 60; i += 10) {
-		$.strokeStyle = 'hsla(180,20%,40%, .16)';
+		$.strokeStyle = 'hsla(0,60%,20%, .16)';
 		$.beginPath();
 		$.moveTo(0, h / 2);
 		for (let j = 0; j < w; j += 1) {

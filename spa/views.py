@@ -10,3 +10,8 @@ async def index(request):
 @aiohttp_jinja2.template('index_eng.html')
 async def eng(request):
     return {'ok': 0}
+
+
+@aiohttp_jinja2.template('stuff.html')
+async def stuff(request):
+    return {'ok': 0}
