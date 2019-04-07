@@ -7,8 +7,8 @@ let draw = function(a, b, t) {
   	$.lineWidth = 1;
 
   	let my_gradient = $.createLinearGradient(0, 0, 0, h);
-	my_gradient.addColorStop(0.1, "hsla(260, 100%, 85%, 1");
-	my_gradient.addColorStop(1, "hsla(330, 100%, 85%, 1");
+	my_gradient.addColorStop(0.1, "hsla(210, 80%, 75%, 1");
+	my_gradient.addColorStop(1, "hsla(245, 80%, 75%, 1");
 
 	$.fillStyle = my_gradient;
     $.fillRect(0, 0, w, h);
@@ -40,7 +40,7 @@ let addEvent = function(object, type, callback) {
 };
 
 function drawline() {
-	let t = new Date().getTime() % 1000;
+	let t = 505050;
 	draw(33, 52 * Math.sin(t / 2400), t);
 }
 
