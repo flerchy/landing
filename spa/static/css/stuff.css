@@ -98,7 +98,6 @@ img::-moz-selection {
     }
 }
 
-
 header.masthead {
     margin-bottom: 50px;
     background: no-repeat center center;
@@ -115,7 +114,7 @@ header.masthead .overlay {
     height: 100%;
     width: 100%;
     background-color: #b3d7ff;
-    opacity: .2
+    opacity: .3;
 }
 
 header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
