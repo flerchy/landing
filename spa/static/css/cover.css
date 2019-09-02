@@ -123,6 +123,8 @@ body {
 
 
 .hide-desc-resume {
+    padding-top: 5px;
+    padding-bottom: 3px;
     animation: fadein2 3s;
     -moz-animation: fadein2 3s; /* Firefox */
     -webkit-animation: fadein2 3s; /* Safari and Chrome */

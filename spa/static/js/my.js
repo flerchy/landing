@@ -2,13 +2,13 @@ let c = document.getElementById('bg');
 let $ = c.getContext('2d');
 
 let draw = function(a, b, t) {
-	let w = c.width = window.innerWidth-1;
-	let h = c.height = window.innerHeight-4;
+	let w = c.width = window.innerWidth;
+	let h = c.height = window.innerHeight;
   	$.lineWidth = 1;
 
   	let my_gradient = $.createLinearGradient(0, 0, 0, h);
-	my_gradient.addColorStop(0.1, "hsla(210, 100%, 85%, 1");
-	my_gradient.addColorStop(1, "hsla(245, 100%, 85%, 1");
+	my_gradient.addColorStop(0.1, "hsla(45, 100%, 75%, 1");
+	my_gradient.addColorStop(1, "hsla(10, 100%, 75%, 1");
 
 	$.fillStyle = my_gradient;
     $.fillRect(0, 0, w, h);
@@ -40,7 +40,7 @@ let addEvent = function(object, type, callback) {
 };
 
 function drawline() {
-	let t = 505050;
+	let t = 200;
 	draw(33, 52 * Math.sin(t / 2400), t);
 }
 
