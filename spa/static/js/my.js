@@ -7,8 +7,8 @@ let draw = function(a, b, t) {
   	$.lineWidth = 1;
 
   	let my_gradient = $.createLinearGradient(0, 0, 0, h);
-	my_gradient.addColorStop(0.1, "hsla(45, 100%, 75%, 1");
-	my_gradient.addColorStop(1, "hsla(10, 100%, 75%, 1");
+	my_gradient.addColorStop(0.1, "hsla(0, 0%, 95%, 1");
+	my_gradient.addColorStop(1, "hsla(150, 100%, 78%, 1");
 
 	$.fillStyle = my_gradient;
     $.fillRect(0, 0, w, h);
